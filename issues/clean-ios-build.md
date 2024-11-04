@@ -3,6 +3,7 @@
 ```bash
 rm -rf ~/Library/Caches/CocoaPods
 rm -rf Pods
+rm podfile.lock
 rm -rf ~/Library/Developer/Xcode/DerivedData/*
 pod deintegrate
 pod cache clean --all
