@@ -20,11 +20,12 @@ pod install --repo-update
 ```
 
 
-4. Check Header Search Paths in Xcode
-Open your project in Xcode.
-Navigate to the project settings.
-Go to Build Settings.
-Look for Header Search Paths and ensure it includes
+- Check Header Search Paths in Xcode
+
+  - Open your project in Xcode.
+  - Navigate to the project settings.
+  - Go to Build Settings.
+  - Look for Header Search Paths and ensure it includes
 
 ```bash
 $(SRCROOT)/../node_modules/react-native/React
