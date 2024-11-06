@@ -31,3 +31,12 @@ pod install --repo-update
 $(SRCROOT)/../node_modules/react-native/React
 $(SRCROOT)/../node_modules/react-native.
 ```
+
+- [official link for fix](https://github.com/facebook/react-native/commit/8721ee0a6b10e5bc8a5a95809aaa7b25dd5a6043)
+
+```bash
+-- (NSArray<RCTModuleData *> *)_initializeModules:(NSArray<id<RCTBridgeModule>> *)modules
++- (NSArray<RCTModuleData *> *)_initializeModules:(NSArray<Class> *)modules
+                               withDispatchGroup:(dispatch_group_t)dispatchGroup
+                                lazilyDiscovered:(BOOL)lazilyDiscovered
+```
