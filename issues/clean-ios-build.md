@@ -40,3 +40,13 @@ $(SRCROOT)/../node_modules/react-native.
                                withDispatchGroup:(dispatch_group_t)dispatchGroup
                                 lazilyDiscovered:(BOOL)lazilyDiscovered
 ```
+
+- gyp ERR! not ok
+
+```bash
+brew install python
+brew install gcc
+sudo npm config set python $(which python)
+```
+
+after this check on command line `python --version`: It should display the python version number.
