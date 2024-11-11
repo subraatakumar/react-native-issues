@@ -50,3 +50,4 @@ sudo npm config set python $(which python)
 ```
 
 after this check on command line `python --version`: It should display the python version number.
+- if still problem persist, check `.python-version` of your project root.
